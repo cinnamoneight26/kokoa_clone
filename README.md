@@ -7,9 +7,8 @@ Nomad coders 코코아톡 클론 코딩 강의 repository
 ---
 
 - 2022.02.02
-  #2.0 Our First HTML File
 
----
+  #2.0 Our First HTML File
 
 - 2022.02.03
   #2.1 설정 및 오류
@@ -20,9 +19,8 @@ Nomad coders 코코아톡 클론 코딩 강의 repository
     Material Icon Theme
   - 브라우저는 규칙을 따르지 않더라도 나에게 작성된 내용을 보여준다. HTML 파일에 에러가 있다고 말해주지 않으며 콘텐츠를 보여준다. 이는 단점이자 장점.
 
----
-
 - 2022.02.04
+
   #2.2 첫 번째 HTML 태그
 
   - tag
@@ -31,9 +29,8 @@ Nomad coders 코코아톡 클론 코딩 강의 repository
   - <h1> ~ <h6>
   - <h7>은 없으므로 작성하면 평범한 텍스트로 인식함
 
----
-
 - 2022.02.05
+
   #2.3 더 많은 태그와 더 예쁜
 
   - list
@@ -49,4 +46,4 @@ Nomad coders 코코아톡 클론 코딩 강의 repository
 
   #2.4 태그 속성
 
----
+  - a
