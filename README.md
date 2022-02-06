@@ -70,3 +70,20 @@ Nomad coders 코코아톡 클론 코딩 강의 repository
     - src
       img 태그가 쓰는 attribute
       scr는 img 태그의 contents라고 생각하면 됨
+
+### 2.5 More Tags and head
+
+    - img
+    url을 이용하지 않고 local에서 가져온 img도 사용할 수 있음
+    img에서 확장자와 위치는 정확하게 입력해주어야 함
+    <img src="img/logo.jpg" /> 처럼 작성하는 것을 path notation(경로 표기법)이라고 함
+
+    - HTML문서를 작성하는 규칙
+    우리가 따라야 하는 형태가 있음
+    HTML 문서는 항상 <!DOCTYPE html>로 시작해야 함
+    이것은 브라우저에게 text파일이 아닌 html 문서라고 알려주는 것
+    그 다음엔 <html> 태그를 열어주어야 함
+    웹 사이트는 두 개의 파트로 나뉘어져 있음
+    <html>태그 안에 <head>태그와 <body>태그를 넣어주어야 함
+    <head>에서는 페이지와 관한 환경설정을 해주어야 함
+    <title>태그는 <head>태그 안에서 사용함
