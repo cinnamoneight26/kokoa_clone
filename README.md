@@ -87,3 +87,28 @@ Nomad coders 코코아톡 클론 코딩 강의 repository
     <html>태그 안에 <head>태그와 <body>태그를 넣어주어야 함
     <head>에서는 페이지와 관한 환경설정을 해주어야 함
     <title>태그는 <head>태그 안에서 사용함
+
+### 2.6 All about the Head
+
+    head에 있는 정보들은 검색 사이트에서도 사용됨
+    구글에서 넷플릭스를 검색했을 때 나오는 문구는 title과 description
+    meta tag의 meta는 부가적인 정보라는 뜻
+    meta tag는 두 개의 attribute를 가지고 있음
+    content와 name
+
+    - <meta charset="utf-8">
+    브라우저에게 text를 어떻게 그려달라는지 말해준다
+    한글이나 다른 특수문자가 있는 언어를 입력할 때 사용함.
+
+    - <html lang="">
+    HTML에 lang을 지정하는 이유는 구글, 네이버 등 검색엔진들에 도움을 주기 위해서 작성함
+    사이트에서 사용되는 언어가 무엇인지 말해주는 것
+
+    - <link>
+    rel(relationship)
+    <link
+            rel="shortcut icon"
+            sizes="16x16 32x32 64x64"
+            href="https://nomadcoders.co/m.png"
+        />
+    탭에 이미지 넣기. 파비콘이랑 다른건가? 신기함!!!!
