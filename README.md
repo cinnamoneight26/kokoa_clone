@@ -115,4 +115,16 @@ Nomad coders 코코아톡 클론 코딩 강의 repository
 
     - og.image
       공유될 때 보여지는 이미지. 사이트 주소를 공유할 때 사용
+      og:~ 네이버, 카카오톡....
+      fb:~ 페이스북
+      twitter:~ 트위터
+
+### 2.7 More Tags
+
+      HTMl, CSS, JavaScript 등을 검색할 때 mdn 키워드 붙여서 검색하면 더 좋음
+      (Mozilla devoloper Network)
+      w3schools 사이트는 비추천
+
+      단축키
+      태그를 앞뒤 동시에 바꿔주는 거는 command + d
 
