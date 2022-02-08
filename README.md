@@ -128,3 +128,13 @@ Nomad coders 코코아톡 클론 코딩 강의 repository
       단축키
       태그를 앞뒤 동시에 바꿔주는 거는 command + d
 
+### 2.8 Form Tags
+
+      기본적인 html 사용법
+      <tagName attribute="attrValue"> contents </tagName>
+
+      form태그에는 수많은 attribute가 존재하지만 다 외울 필요 없음.
+      필요할 때 검색해서 사용해도 됨.
+      상술한 태그 사용법만 알면 언제든지 구현 가능!
+
+
