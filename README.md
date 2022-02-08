@@ -112,3 +112,7 @@ Nomad coders 코코아톡 클론 코딩 강의 repository
             href="https://nomadcoders.co/m.png"
         />
     탭에 이미지 넣기. 파비콘이랑 다른건가? 신기함!!!!
+
+    - og.image
+      공유될 때 보여지는 이미지. 사이트 주소를 공유할 때 사용
+
