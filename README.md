@@ -121,20 +121,35 @@ Nomad coders 코코아톡 클론 코딩 강의 repository
 
 ### 2.7 More Tags
 
-      HTMl, CSS, JavaScript 등을 검색할 때 mdn 키워드 붙여서 검색하면 더 좋음
+      - HTMl, CSS, JavaScript 등을 검색할 때 mdn 키워드 붙여서 검색하면 더 좋음
       (Mozilla devoloper Network)
       w3schools 사이트는 비추천
 
-      단축키
+      - 단축키
       태그를 앞뒤 동시에 바꿔주는 거는 command + d
 
 ### 2.8 Form Tags
 
-      기본적인 html 사용법
+      - 기본적인 html 사용법
       <tagName attribute="attrValue"> contents </tagName>
 
-      form태그에는 수많은 attribute가 존재하지만 다 외울 필요 없음.
+      - form태그에는 수많은 attribute가 존재하지만 다 외울 필요 없음.
       필요할 때 검색해서 사용해도 됨.
       상술한 태그 사용법만 알면 언제든지 구현 가능!
 
+### 2.9 More Tags and IDs
 
+      - <label>
+      form 태그 내에서 사용하는 태그
+      레이블 태그는 for라는 attribute를 사용해서 input태그를 이용함
+      input 태그의 id와 label의 for에 들어가는 값이 동일해야 함
+      for와 같은 값을 가진 id를 들고 있는 input을 작동시켜 줌
+
+      - id
+      body 안의 어떤 태그에도 id를 넣을 수 있음
+      id는 고유식별자임
+      element당 하나의 id만 가질 수 있음
+      scripting이나 css를 식별하려는 목적을 가지고 있음
+
+      - 단축키
+      커서 동시에 선택하고 싶을 때는 option(alt)키

@@ -12,8 +12,11 @@
     </head>
     <body>
         <form>
-            <input type="file" />
-            <input required type="text" placeholder="Name" />
+            <label for="profile">Profile photo</label>
+
+            <input id="profile" type="file" accept=".png,.pdf" />
+            <label for="first-name">First Name</label>
+            <input id="first-name" required type="text" placeholder="Name" />
             <input required type="text" placeholder="Last Name" />
             <input required type="text" placeholder="UserName" />
             <input required type="password" placeholder="Password" />
