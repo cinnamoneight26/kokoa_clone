@@ -153,3 +153,18 @@ Nomad coders 코코아톡 클론 코딩 강의 repository
 
       - 단축키
       커서 동시에 선택하고 싶을 때는 option(alt)키
+
+### 3.0 Semantic HTML
+
+      - <div>
+      divison. 분할, 구분, 경계선
+      시맨틱한 태그가 아님
+
+      <header>
+      시멘틱 태그.사이트의 헤더
+
+      <main>
+      시멘틱 태그. 사이트의 메인
+
+      <footer>
+      시멘틱 태그. 사이트의 꼬릿말
