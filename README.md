@@ -154,7 +154,7 @@ Nomad coders 코코아톡 클론 코딩 강의 repository
       - 단축키
       커서 동시에 선택하고 싶을 때는 option(alt)키
 
-### 3.0 Semantic HTML
+### 2.10 Semantic HTML
 
       - <div>
       divison. 분할, 구분, 경계선
@@ -168,3 +168,11 @@ Nomad coders 코코아톡 클론 코딩 강의 repository
 
       <footer>
       시멘틱 태그. 사이트의 꼬릿말
+
+### 2.11 Recap
+
+      HTML attribute에서는 항상 큰 따옴표 ""를 사용해준다.
+      attribute를 작성할 때 ""를 잘 여닫아주어야 한다.
+      특정 attrobute는 모든 태그에 사용할 수 있으며, 어떤 것은 특정 태그에만 쓸 수 있다.
+      시멘틱 코드로 작성하는 것은 매우 중요하다.
+      태그 암기하지 말 것. 필요할 때 검색해서 쓰는 게 효율적임.
