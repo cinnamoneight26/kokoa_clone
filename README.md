@@ -176,3 +176,17 @@ Nomad coders 코코아톡 클론 코딩 강의 repository
       특정 attrobute는 모든 태그에 사용할 수 있으며, 어떤 것은 특정 태그에만 쓸 수 있다.
       시멘틱 코드로 작성하는 것은 매우 중요하다.
       태그 암기하지 말 것. 필요할 때 검색해서 쓰는 게 효율적임.
+
+### 3.0 How to Add CSS to HTML
+
+      html문서에 css를 추가하는 여러가지 방법
+
+      1. 같은 html파일에 html 코드와 css 코드를 놓는 방법
+      2. css와 html을 분리
+
+      같은 html 파일에 css를 작성할 때 <style> 태그를 <head>태그에 포함시켜 인라인으로 사용
+
+      분리해서 사용할 땐 css파일을 만들고 <link> 태그를 사용해 연결하여 사용
+      작성시 href로 css를 연결해주고 rel로 html 파일과의 관계를 stylesheet라고 명시해줌
+
+      둘 중 더 나은 방법은 1번처럼 분리된 파일을 만드는 것.
