@@ -197,3 +197,14 @@ Nomad coders 코코아톡 클론 코딩 강의 repository
       selector 지정
       속성이름에 띄어쓰기를 하지 않는다
       속성이름:속성값; 형태로 쓴다.
+
+### 3.2 What Does Cascading Mean
+
+      Cascading이 의미하는 바는 브라우저가 css코드를 읽을 때
+      위에 있는 코드부터 차례대로 읽힌다는 뜻
+
+      css 파일을 include하는 것을 external CCSS,
+      HTML파일에 css를 작성하는 것을 inline CSS라고 함
+      코드의 순서가 결과에 영향을 미침
+
+      css는 위에서부터 아래로 읽히고 적용되는 것은 마지막 코드
