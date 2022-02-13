@@ -208,3 +208,23 @@ Nomad coders 코코아톡 클론 코딩 강의 repository
       코드의 순서가 결과에 영향을 미침
 
       css는 위에서부터 아래로 읽히고 적용되는 것은 마지막 코드
+
+### 3.3 Blocks and Inlines
+
+      어떤 웹사이트든 그것을 이루는 모근 요소들은 box임
+      box들로 디자인한다
+      옆에 다른 요소가 못 오는 것을 block이라 부르고
+      다른 요소가 올 수 있는 것을 inline이라고 함
+
+      inline은 '같은 줄에 위치할 수 있다."
+      (in the same line)는 뜻
+
+      block은 옆에 아무 것도 올 수 없다는 것을 뜻함
+
+      - inline 요소들
+      아주 작은 글이나 링크, 그림 등등.
+      inline애 해당하는 것은 많이 없기 때문에 block이 아닌 종류를 기억하는 것이 훨씬 편함
+      <span>
+      <a>
+      <image>
+      <code>
