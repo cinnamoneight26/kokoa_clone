@@ -182,7 +182,7 @@ Nomad coders 코코아톡 클론 코딩 강의 repository
       html문서에 css를 추가하는 여러가지 방법
 
       1. 같은 html파일에 html 코드와 css 코드를 놓는 방법
-      2. css와 html을 분리
+      2. css와 html을 분리s
 
       같은 html 파일에 css를 작성할 때 <style> 태그를 <head>태그에 포함시켜 인라인으로 사용
 
@@ -190,3 +190,10 @@ Nomad coders 코코아톡 클론 코딩 강의 repository
       작성시 href로 css를 연결해주고 rel로 html 파일과의 관계를 stylesheet라고 명시해줌
 
       둘 중 더 나은 방법은 1번처럼 분리된 파일을 만드는 것.
+
+### 3.1 Writing Our First CSS Lines
+
+      css 입력 규칙 3가지
+      selector 지정
+      속성이름에 띄어쓰기를 하지 않는다
+      속성이름:속성값; 형태로 쓴다.
