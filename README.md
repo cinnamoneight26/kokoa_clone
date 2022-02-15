@@ -228,3 +228,27 @@ Nomad coders 코코아톡 클론 코딩 강의 repository
       <a>
       <image>
       <code>
+
+### 3.4 Margin Part One
+
+      block을 inline으로, inline을 block으로 바꿀 수 있는데
+      display 속성을 통해 변경이 가능함
+
+      span의 display default값은 inline
+      div의 display default값은 block
+
+      inline요소는 높이와 너비를 가질 수 없기 때문에
+      div에 inline을 주면 보이지 않음(div 안에 콘텐츠가 있으면 해당 내용은 보임)
+
+      inline
+            높이와 너비 없음
+
+      block
+            높이와 너비 있음
+            margin, padding, border
+
+      브라우저는 요소들에게 (원치 않아도) 많은 style 부여함
+      크롬 개발자 도구에서 css에 user agent stylesheet로 보이는 것이
+      브라우저가 기본적으로 지정한 style임
+
+      margin은 box의 border(경계)의 바깥에 있는 공간
