@@ -252,3 +252,18 @@ Nomad coders 코코아톡 클론 코딩 강의 repository
       브라우저가 기본적으로 지정한 style임
 
       margin은 box의 border(경계)의 바깥에 있는 공간
+
+### 3.5 Margin Part Two
+
+      margin을 방향없이 하나만 주면 상하좌우 모두 적용됨
+      margin에 값을 두개 쓰면 상하, 좌우의 값 적용
+      margin에 값을 네개 쓰면 위, 오른쪽, 아래, 왼쪽 값 적용(시계방향 순서)
+
+      collapsing margin(여백 상쇄)
+      https://developer.mozilla.org/ko/docs/Web/CSS/CSS_Box_Model/Mastering_margin_collapsing
+
+      인접 형제 요소간의 margin은 서로 상쇄
+      부모 블록에 border, padding, inline 부분이 없고 블록 서색 맥락이 생성되지 않았으면 상쇄된 여백은 부모 블록 바깥에 위치하게 됨
+      테두리, 안쪽 여백, 인라인 콘텐츠, 높이, 최소 높이, 최고 높이가 없으면 블록의 마진이 상쇄됨
+
+      강의에서는 부모의 경계와 자식의 경계가 같을 때 일어난다고 설명함
