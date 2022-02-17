@@ -274,3 +274,22 @@ Nomad coders 코코아톡 클론 코딩 강의 repository
       CSS에서 id를 명시할 때는 #뒤에 id를 쓰면 됨
       #id #first 등등..
       id="first"라는 의미가 됨
+
+### 3.7 Border
+
+      box의 경계
+      border는 많은 속성을 가지고 있지만
+      border에서는 여러 종류의 속성을 한번에 쓰진 않음
+      이유는 정말 안 예쁨
+      border: 2px solid black;
+      너비, 스타일, 색깔 순서
+      border-style: dotted; 이런 형태대로 쓸 수도 있음
+
+      CSS에서 * 선택자는 전체를 뜻함
+      inline도 border를 적용할 수 있을까?
+      정답은 yes. border가 적용됨
+      그렇다면 padding과 margin은 inline에 적용될까?
+      inline에는 높이와 너비가 적용이 안 됨
+      궁금한데 다음 시간에 알려준다고 함니다...
+
+
