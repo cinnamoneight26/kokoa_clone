@@ -305,3 +305,45 @@ Nomad coders 코코아톡 클론 코딩 강의 repository
       .tomato는 class='tomato'라는 뜻과 같음
       클래스는 한번에 여러개를 적용할 수 있음
 
+### 3.9 Inline Block
+
+      div를 요소검사해보면 block으로 보여짐.
+      이것은 브라우저가 지정한 것임
+      block요소를 inline으로 변경할 수 있음
+      display:inline을 css로 적용해주면됨
+
+      inline-block은 inline을 block으로 인식하게 함
+      inline-block으로 레이아웃을 할 수도 있지만 고루한 방식이고 여러 문제가 있음
+      inline-block의 단점은 지정해주지도 않았는데 공간이 생긴다는 것과 정해진 형식이 없다는 것에 있음
+      inline-block은 Responsive Design(반응형 디자인)을 지원하지 않음!!!!!
+      그렇기 때문에 창크기가 달라지면 영향을 받음
+      box를 나란히 두기 위해 inline-block을 사용하는 사람이 많지만 좋은 방법이 아님
+
+### 3.10 Flexbox Part One
+
+      inline-box의 문제점들이 발견되자 브라우저와 인터넷 커뮤니티에서 이를 고쳐보려함
+      flexbox는 박스를 어떤 곳이든 둘 수 있고 아주 유연해서 2차원 레이아웃에서 아주 잘 작동함
+      flexbox를 사용하기 위해서는 지켜줘야 할 중요한 규칙이 세 가지 있음
+
+      1. 자식 엘리먼트에 어떤 것도 적지 말아야 한다. 부모 엘리먼트에만 명시해야함
+            부모가 자식들을 제어하는 것임
+            부모 엘리먼트에 display: flex;
+
+
+      justify-content
+            - 기본값은 flex-start
+            - space-evenly : 빈 공간을 같은 크기로 고르게 나누어서 배치
+
+      flexbox에는 주축(main axis)과 교차축(cross axis)이 있음
+      주축은 수평이고 교차축은 수직임
+      jestify-content는 주축에 적용되는 것임
+      align-items라는 프로퍼티는 교차축에 적용
+      align-items의 stretch는 요소를 늘어나게 하는데
+      요소가 height값을 가지고 있으면 적용되지 않음
+
+      vh
+      viewport height.
+      viewport는 screen이라는 말로 생각해도 됨
+      100 screen height는 화면 높이의 100%를 의미함
+
+      만약 부모 요소가 height를 가지고 있지 않다면 align-items을 설정하더라도 바뀌지 않을 것임. 이미 맨 위아래를 차지하고 중심에 있으니까.
