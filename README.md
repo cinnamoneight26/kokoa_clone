@@ -345,12 +345,6 @@ Nomad coders 코코아톡 클론 코딩 강의 repository
             - baseline: 요소들을 컨테이너의 시작 위치에 정렬합니다.
             - stretch: 요소들을 컨테이너에 맞도록 늘립니다.
 
-      flex-direction
-            - row: 요소들을 텍스트의 방향과 동일하게 정렬합니다.
-            - row-reverse: 요소들을 텍스트의 반대 방향으로 정렬합니다.
-            - column: 요소들을 위에서 아래로 정렬합니다.
-            - column-reverse: 요소들을 아래에서 위로 정렬합니다.
-
       flexboxfroggy : https://flexboxfroggy.com/#ko
 
       flexbox에는 주축(main axis)과 교차축(cross axis)이 있음
@@ -366,3 +360,45 @@ Nomad coders 코코아톡 클론 코딩 강의 repository
       100 screen height는 화면 높이의 100%를 의미함
 
       만약 부모 요소가 height를 가지고 있지 않다면 align-items을 설정하더라도 바뀌지 않을 것임. 이미 맨 위아래를 차지하고 중심에 있으니까.
+
+### 3.11 Flexbox Part Two
+
+      flex-direction
+            - row: 요소들을 텍스트의 방향과 동일하게 정렬합니다.
+            - row-reverse: 요소들을 텍스트의 반대 방향으로 정렬합니다.
+            - column: 요소들을 위에서 아래로 정렬합니다.
+            - column-reverse: 요소들을 아래에서 위로 정렬합니다.
+            - column-reverse 또는 row-reverse를 사용하면 요소들의 start와 end의 순서도 뒤바뀝니다.
+
+      order
+            - flex 요소의 순서를 지정
+            - -1, 0, 1 등 올 수 있으며 기본값은 0
+
+      align-self
+            - 지정된 alinge-items 값을 무시하고 flex요소를 세로선 상에서 정렬
+            - flex-start
+            - flex-end
+            - center
+            - baseline
+            - stretch
+
+      flex-wrap
+            - nowrap: 모든 요소들을 한 줄에 정렬합니다.
+            - wrap: 요소들을 여러 줄에 걸쳐 정렬합니다.
+            - wrap-reverse: 요소들을 여러 줄에 걸쳐 반대로 정렬합니다.
+
+      flex-flow
+            - flex-direction과 flex-wrap이 자주 같이 사용되기 때문에 대신 사용함
+            - 공백문자를 이용하여 두 속성의 값들을 인자로 받음
+            - 예 : flex-flow: row wrap;
+
+      align-content
+            - 여러 줄들 사이의 간격을 지정
+            - align-items는 컨테이너 안에서 어떻게 몯느 요소들이 정렬하는지를 지정
+            - 한 줄만 있는 경우 align-content는 효과가 없음
+            - flex-start: 여러 줄들을 컨테이너의 꼭대기에 정렬합니다.
+            - flex-end: 여러 줄들을 컨테이너의 바닥에 정렬합니다.
+            - center: 여러 줄들을 세로선 상의 가운데에 정렬합니다.
+            - space-between: 여러 줄들 사이에 동일한 간격을 둡니다.
+            - space-around: 여러 줄들 주위에 동일한 간격을 둡니다.
+            - stretch: 여러 줄들을 컨테이너에 맞도록 늘립니다.
