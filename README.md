@@ -292,4 +292,16 @@ Nomad coders 코코아톡 클론 코딩 강의 repository
       inline에는 높이와 너비가 적용이 안 됨
       궁금한데 다음 시간에 알려준다고 함니다...
 
+### 3.8 Classes
+
+      inline요소에 padding을 주니 적용이 된다.
+      margin은 사방에 줬는데 좌우에만 적용되고 상하에는 적용 안되는 것을 확인함
+      inline은 padding은 다 가질 수 있지만 margin은 좌우로만 가질 수 있음
+      inline은 모든 속성이 다 적용되지 않고 일부만 적용되는 경우가 있음
+
+      css에서 요소를 여러개 지정하는 방법 #tomatoColor1, #tomatoColor2, #tomatoColor3 ...이런 식으로 쉼표(',')로 여러개를 나열해서 해결할 수 있음
+
+      id처럼 요소를 지정할 수 있고 여러 요소를 한번에 지정하고 싶을 때는 class를 사용하면 됨
+      .tomato는 class='tomato'라는 뜻과 같음
+      클래스는 한번에 여러개를 적용할 수 있음
 
