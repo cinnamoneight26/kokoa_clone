@@ -409,3 +409,15 @@ Nomad coders 코코아톡 클론 코딩 강의 repository
             - 레이아웃보다는 위치를 상하좌우로 옮기고 싶을 때 사용
             - top, bottom, left, right를 사용하지 않으면 초기 위치에 고정되고, 이들을 사용하면 형제 요소들과 다른 레이어를 사용하게 됨.
             - position:fixed를 사용하면 가장 위의 레이어에 머무름
+
+### 3.13 Relative Absolute
+
+      - position의 default값은 static
+        레이아웃이 박스를 처음 위치하는 곳에 두는 것을 의미함
+
+      - position : relative
+        element가 처음 위치한 곳을 기준으로 수정
+
+      - position : absolute
+        가장 가까운 relative 부모를 기준으로 이동시켜 줌
+        없으면 body가 기준이 됨
