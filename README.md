@@ -402,3 +402,10 @@ Nomad coders 코코아톡 클론 코딩 강의 repository
             - space-between: 여러 줄들 사이에 동일한 간격을 둡니다.
             - space-around: 여러 줄들 주위에 동일한 간격을 둡니다.
             - stretch: 여러 줄들을 컨테이너에 맞도록 늘립니다.
+
+### 3.12 Fixed
+
+      position
+            - 레이아웃보다는 위치를 상하좌우로 옮기고 싶을 때 사용
+            - top, bottom, left, right를 사용하지 않으면 초기 위치에 고정되고, 이들을 사용하면 형제 요소들과 다른 레이어를 사용하게 됨.
+            - position:fixed를 사용하면 가장 위의 레이어에 머무름
