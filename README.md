@@ -421,3 +421,20 @@ Nomad coders 코코아톡 클론 코딩 강의 repository
       - position : absolute
         가장 가까운 relative 부모를 기준으로 이동시켜 줌
         없으면 body가 기준이 됨
+
+### 3.14 Pseudo Selectors part One
+
+      기존에 배운 tag, id, class 선택자보다 조금 더 세부적으로 엘리먼트를 선택할 수 있음
+
+      div:first-child
+      div:last-child
+      span:nth-child(even)
+      span:nth-child(odd)
+      span:nth-child(3n+1)
+      span:nth-child(5n+1)
+      .
+      .
+      .
+      등이 있음
+
+      HTML을 수정하지 않고 CSS만으로 손쉽게 선택하여 지정할 수 있음!
