@@ -529,3 +529,13 @@ Nomad coders 코코아톡 클론 코딩 강의 repository
       a {
                 color: var(--main-color);
             }
+
+### 4.0 Transitions
+
+      어떤 상태에서 다른 상태로의 변화를 애니메이션으로 만드는 방법
+      tranition은 state가 없는 요소에 사용해야 함
+      먼저 어떤 것을 변화시킬지 쓰고 그 다음에는 얼마동안 변화가 일어나게할지 씀
+
+
+      transition: all;
+      변화하는 모든 것에 transition을 주는 것
