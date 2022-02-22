@@ -567,3 +567,25 @@ Nomad coders 코코아톡 클론 코딩 강의 repository
       CSS에 있는 모든 애니메이션은 GPU에 의해 돌아감
       컴퓨터 그래픽카드에 의해서 돌아감
 
+### 4.3 Animations part One
+
+      애니메이션을 만들기 위해서는 @keyframes 를 사용함
+
+      @keyframes에는 두가지 옵션이 있음
+
+             @keyframes coinFlip {
+                from {
+                    transform: rotateX(0deg);
+                }
+                to {
+                    transform: rotateX(360deg);
+                }
+            }
+
+            img {
+                width: 300px;
+                height: 300px;
+                border: 5px solid black;
+                border-radius: 50%;
+                animation: coinFlip 5s ease-in-out;
+            }

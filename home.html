@@ -12,15 +12,20 @@
         <link rel="stylesheet" href="styles.css" />
         <style>
             /* css */
+            @keyframes coinFlip {
+                from {
+                    transform: rotateX(0deg);
+                }
+                to {
+                    transform: rotateX(360deg);
+                }
+            }
             img {
                 width: 300px;
                 height: 300px;
                 border: 5px solid black;
                 border-radius: 50%;
-                transition: transform 3s ease-in-out;
-            }
-            img:hover {
-                transform: rotateY(360deg) scale(0.5);
+                animation: coinFlip 5s ease-in-out infinite;
             }
         </style>
     </head>
