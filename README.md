@@ -480,7 +480,7 @@ Nomad coders 코코아톡 클론 코딩 강의 repository
 
 ### 3.17 States
 
-      개발자 도구에서 확인할 수 있는 가장 중요한 selector는
+      개발자 도구에서 확인할 수 있는 가장 중요한 selector
 
       active : 버튼을 누르고 있을 때
       focus : 키보드로 선택했을 때
@@ -489,4 +489,16 @@ Nomad coders 코코아톡 클론 코딩 강의 repository
       focus within: 부모에 적용.
             focused인 자식을 가진 부모 엘리먼트의 상태를 말함
 
-      이다
+### 3.18 Recap
+
+      ::placeholder
+      placeholder를 스타일링 할 수 있게 해 줌
+
+      ::selection
+      텍스트를 selection했을 때 스타일링을 할 수 있게 함
+
+      ::first-letter
+      첫번째 글자의 스타일링을 할 수 있음
+
+      ::first-line
+      첫번째 줄의 스타일링을 할 수 있음
