@@ -589,3 +589,24 @@ Nomad coders 코코아톡 클론 코딩 강의 repository
                 border-radius: 50%;
                 animation: coinFlip 5s ease-in-out;
             }
+
+### 4.4 Animations part Two
+
+      이런 방법도 씀
+      원하는만큼 많은 스텝을 가질 수 있음
+      예시는 3개
+
+            @keyframes coinFlip {
+                0% {
+                    transform: rotateY(0deg);
+                }
+                50% {
+                    transform: rotateY(180deg) translateX(100px);
+                }
+                100% {
+                    transform: rotateY(0deg);
+                }
+            }
+
+      반드시 transform을 사용해야하는 것은 아니지만 권장함.
+      어떤 것은 애니메이션으로 잘 안되기 때문임.
