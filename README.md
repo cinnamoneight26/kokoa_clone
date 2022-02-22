@@ -557,3 +557,13 @@ Nomad coders 코코아톡 클론 코딩 강의 repository
 
       내가 속도를 직접 설정할수도 있음
       cubic-bezier(0,0,0,0)으로 직접 설정 가능
+
+### 4.2 Transformations
+
+      요소를 변형시키는 기술
+      transformation은 box element를 변형시키지 않음
+      margin, padding이 적용되지 않음
+      일종의 3D transformation.
+      CSS에 있는 모든 애니메이션은 GPU에 의해 돌아감
+      컴퓨터 그래픽카드에 의해서 돌아감
+
