@@ -539,3 +539,21 @@ Nomad coders 코코아톡 클론 코딩 강의 repository
 
       transition: all;
       변화하는 모든 것에 transition을 주는 것
+
+### 4.1 Transitions part Two
+
+      ease-in function
+      브라우저에게 애니메이션이 어떻게 변할지 말해주는 것
+
+      https://matthewlein.com/tools/ceaser
+
+      디폴트로 가지고 있는 것.
+
+      linear : 같은 속도로 좌우 직선으로 움직임
+      ease-in : 시작점에서보다 빨라지며 움직임
+      ease-in-out
+      ease-out
+      ease
+
+      내가 속도를 직접 설정할수도 있음
+      cubic-bezier(0,0,0,0)으로 직접 설정 가능
