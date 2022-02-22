@@ -482,11 +482,11 @@ Nomad coders 코코아톡 클론 코딩 강의 repository
 
       개발자 도구에서 확인할 수 있는 가장 중요한 selector
 
-      active : 버튼을 누르고 있을 때
-      focus : 키보드로 선택했을 때
-      hover : 마우스 커서가 대상 위에 있을 때
-      visited : 링크에만 적용. 방문한 적이 있는 링크 표시
-      focus within: 부모에 적용.
+      :active : 버튼을 누르고 있을 때
+      :focus : 키보드로 선택했을 때
+      :hover : 마우스 커서가 대상 위에 있을 때
+      :visited : 링크에만 적용. 방문한 적이 있는 링크 표시
+      :focus within: 부모에 적용.
             focused인 자식을 가진 부모 엘리먼트의 상태를 말함
 
 ### 3.18 Recap
@@ -502,3 +502,30 @@ Nomad coders 코코아톡 클론 코딩 강의 repository
 
       ::first-line
       첫번째 줄의 스타일링을 할 수 있음
+
+### 3.19 Colors and Variables
+
+      CSS 컬러 시스템
+      - hexadecimal color (16진수 컬러)
+        #000000, #ffffff
+
+      - RGB 방식
+            rgba 방식도 사용할 수 있음
+            여기서 a는 알파를 말하며 투명도를 뜻함
+
+      - custom property (variable이라고도 함)
+
+      :root
+      기본적으로 모든 document에 뿌리가 됨
+      변수처럼 사용할 수 있게함
+
+      변수는 대쉬 2개 (--) 다음에 대쉬 1개, 그리고 변수이름
+      빈 공간이 있으면 대쉬로 채워야 함.(빈 공간 허용하지 않음)
+
+      :root {
+                --main-color: #fcce00;
+            }
+
+      a {
+                color: var(--main-color);
+            }
