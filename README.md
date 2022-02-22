@@ -453,4 +453,27 @@ Nomad coders 코코아톡 클론 코딩 강의 repository
       정리
       p span : p태그 아래 모든 span 태그 지정
       p > span : p태그 바로 아래에 있는 span태그만 지정
-      p + span : p태그와 같은 라인에 있는 형제 태그 중 span 태그를 선택
+      p + span : p태그와 같은 라인에 있는 형제 태그 중 span 태그를 선택. 바로 뒤에 있어야 선택됨. 중간에 다른 태그가 추가되는 경우 선택 해제됨
+
+### 3.16 Pseudo Selectors part Two
+
+      p ~ span
+      span이 p의 현제인데 바로 뒤에 오지 않을 때 '~'를 사용함.
+
+      input:required { border: 1px solid blue}
+      input이 required라면 border 적용
+      필수 입력값 표시할 때 유용할 듯
+
+      input:optional { border: 1px solid blue}
+      속성이 설정되지 않은 요소에 설정
+
+      input[type="password"]
+      input 요소 중 type이 password인 요소
+
+      input[placeholder="username"]
+      input 요소 중 placeholder가 username인 요소
+
+      input[placeholder~="name"]
+      input 요소 중 placeholder에 name이라는 단어를 포함한 요소
+
+      https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors
