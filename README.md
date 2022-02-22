@@ -477,3 +477,16 @@ Nomad coders 코코아톡 클론 코딩 강의 repository
       input 요소 중 placeholder에 name이라는 단어를 포함한 요소
 
       https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors
+
+### 3.17 States
+
+      개발자 도구에서 확인할 수 있는 가장 중요한 selector는
+
+      active : 버튼을 누르고 있을 때
+      focus : 키보드로 선택했을 때
+      hover : 마우스 커서가 대상 위에 있을 때
+      visited : 링크에만 적용. 방문한 적이 있는 링크 표시
+      focus within: 부모에 적용.
+            focused인 자식을 가진 부모 엘리먼트의 상태를 말함
+
+      이다
