@@ -702,3 +702,12 @@ Nomad coders 코코아톡 클론 코딩 강의 repository
       몰랐던 단축키
       니꼬쌤이 추천하는 id,class명 짓기
             -> 부모요소__자식요소(ex : status-ber__column)
+
+### 6.2 BEM
+
+      BEM : Block Element Modifier
+      CSS 방법론 중 하나
+
+      Block_Element--Modifier 방식으로 class네임을 명명함
+
+      http://getbem.com/introduction/
