@@ -633,4 +633,30 @@ Nomad coders 코코아톡 클론 코딩 강의 repository
                 }
             }
 
+            @media screen and (orientation: landscape) {
+                span {
+                    display: none;
+                }
+            }
 
+### 4.6 Media Queries Recap
+
+      미디어 쿼리 사용
+
+      https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries#media_features
+
+
+      미디어 유형
+
+      https://developer.mozilla.org/en-US/docs/Web/CSS/@media#media_types
+
+      오직 휴대폰 디바이스에만 적용되는 미디어쿼리
+      데스크톱 브라우저는 인식하지 못함
+       -> min-device-width, max-device-width
+
+      스크린이 레티나 디스플레이인지 아닌지 구분할 수 있음
+      (아이폰, MacOS의 스크린)
+       -> aspect-ratio
+
+      프린트 css
+       -> print
