@@ -724,3 +724,39 @@ Nomad coders 코코아톡 클론 코딩 강의 repository
 ### 6.4 Sign Up Screen part Two
 
       로그인 페이지 마크업-
+
+### 6.5 Status Bar CSS
+
+      마크업에 유용한 단축키
+
+      link:css
+              <link rel="stylesheet" href="style.css">
+
+      div.classname
+              <div class="classname"></div>
+
+      div#id
+              <div id="id"></div>
+
+      web font
+      - link 보다 import를 추천한다.
+      - import위치는 제일 상단
+      - body에 font-family 추가
+      - 모든 폰트를 추가하면 웹사이트 무거워진다.
+        하나의 스타일을 선택한 것보다 불러오는데 시간이 오래 걸림. 사용하지 않을 폰트를 선택하지 않는 것도 중요
+      [Google Fonts](https://fonts.google.com/)
+
+      justify-content 대신 컨테이너 하나를 중심에 놓는
+      css 기술
+      .status-bar__column {
+            width: 33.33333%;
+      }
+      .status-bar__column:nth-child(2) {
+            display: flex;
+            justify-content: center;
+      }
+      .status-bar__column:last-child {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+      }
