@@ -668,3 +668,12 @@ Nomad coders 코코아톡 클론 코딩 강의 repository
       text 파일 뿐 아니라 다른 파일의 변경 내역도 볼 수 있는데 git 시스템 파일은 binary format으로 인식하기 때문임.
       git은 파일을 계속 추적함 (Tracking)
 
+### 5.1 What is Github
+
+      Repository
+      코드를 넣을 폴더라고 생각하면 쉬움
+      코드의 변경 내역과 그 히스토리를 가지고 있는 폴더.
+      public과 private를 선택할 수 있음
+      commit은 기본적으로 시점이라고 생각하자.
+      git은 파일들을 주시하면서 관리해주는 도구
+      github는 git의 변경내역을 볼 수 있는 사이트
