@@ -610,3 +610,27 @@ Nomad coders 코코아톡 클론 코딩 강의 repository
 
       반드시 transform을 사용해야하는 것은 아니지만 권장함.
       어떤 것은 애니메이션으로 잘 안되기 때문임.
+
+### 4.5 Media Queries
+
+      media query는 오직 CSS만을 이용해 스크린의 사이즈를 알 수 있도록 한다. (사용자가 보고있는 스크린)
+
+            @media screen and (max-width: 600px) {
+                div {
+                    background-color: tomato;
+                }
+            }
+
+            @media screen and (min-width: 601px) and (max-width: 1200px) {
+                div {
+                    background-color: wheat;
+                }
+            }
+
+            @media screen and (min-width: 1200px) {
+                div {
+                    background-color: turquoise;
+                }
+            }
+
+
