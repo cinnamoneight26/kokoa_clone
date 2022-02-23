@@ -695,3 +695,10 @@ Nomad coders 코코아톡 클론 코딩 강의 repository
       .gitignore는 git 사용 시 업로드에 포함하고 싶지 않은
       파일 이름을 기록하는 파일
       (.DS_Store 추가해줌)
+
+### 6.1 Sign Up Screen part One
+
+      빈 html문서에 !치고 엔터 치면 기본 html 서식이 나온다.
+      몰랐던 단축키
+      니꼬쌤이 추천하는 id,class명 짓기
+            -> 부모요소__자식요소(ex : status-ber__column)
