@@ -689,3 +689,9 @@ Nomad coders 코코아톡 클론 코딩 강의 repository
       3. 푸쉬할 파일에 체크박스 체크
       4. commit 타이틀 입력 후 commit
       5. push
+
+### 6.0 Introduction
+
+      .gitignore는 git 사용 시 업로드에 포함하고 싶지 않은
+      파일 이름을 기록하는 파일
+      (.DS_Store 추가해줌)
