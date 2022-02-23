@@ -660,3 +660,11 @@ Nomad coders 코코아톡 클론 코딩 강의 repository
 
       프린트 css
        -> print
+
+### 5.0 What is Git
+
+      파일의 히스토리를 아는 것은 아주 중요한 일임
+      GIT을 사용하면 파일을 무엇을 어떻게 작성했는지 변경 내역을 볼 수 있음
+      text 파일 뿐 아니라 다른 파일의 변경 내역도 볼 수 있는데 git 시스템 파일은 binary format으로 인식하기 때문임.
+      git은 파일을 계속 추적함 (Tracking)
+
