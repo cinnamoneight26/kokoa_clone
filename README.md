@@ -681,3 +681,11 @@ Nomad coders 코코아톡 클론 코딩 강의 repository
 ### 5.2 Creating a Github Repository
 
       Github Desktop 설치 후 온라인 repository를 로컬에 연결
+
+### 5.3 Making Our First Commits
+
+      1. 파일을 작성한 후 저장
+      2. github desktop 좌측에 파일 확인
+      3. 푸쉬할 파일에 체크박스 체크
+      4. commit 타이틀 입력 후 commit
+      5. push
