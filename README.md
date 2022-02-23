@@ -677,3 +677,7 @@ Nomad coders 코코아톡 클론 코딩 강의 repository
       commit은 기본적으로 시점이라고 생각하자.
       git은 파일들을 주시하면서 관리해주는 도구
       github는 git의 변경내역을 볼 수 있는 사이트
+
+### 5.2 Creating a Github Repository
+
+      Github Desktop 설치 후 온라인 repository를 로컬에 연결
