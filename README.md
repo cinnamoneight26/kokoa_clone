@@ -711,3 +711,12 @@ Nomad coders 코코아톡 클론 코딩 강의 repository
       Block_Element--Modifier 방식으로 class네임을 명명함
 
       http://getbem.com/introduction/
+
+### 6.3 Font Awesome
+
+      아이콘을 추가하는 두 가지 옵션이 있음
+      1. 직접 아이콘을 구하는 방법
+      2. Heroicons(https://heroicons.com/) - 픽셀이 아닌 path로 되어 있는 이미지 아이콘,
+         fontAwesome(https://fontawesome.com/) - 유료/무료 아이콘
+
+      script는 항상 닫는 바디태그 ( </body> ) 직전에 두는 게 좋음
