@@ -760,3 +760,18 @@ Nomad coders 코코아톡 클론 코딩 강의 repository
             justify-content: flex-end;
             align-items: center;
       }
+
+### 6.6 Sign Up Screen part Three
+
+      reset css
+
+      https://cssdeck.com/blog/scripts/eric-meyer-reset-css/
+
+      html에 link를 여러줄 만드는 것 보다 css에 import하여 사용하는 것이 나음
+
+      크롬 확장 프로그램
+      Page Ruler Redux extension
+
+      웹페이지에서 드래그하여 px을 측정할 수 있음
+      만약 작동이 안 되면 확장 프로그램 관리에 가서
+      파일 URL 허용해줄 것
