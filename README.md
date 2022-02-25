@@ -4,6 +4,14 @@ Nomad coders 코코아톡 클론 코딩 강의 repository
 
 `2022.02.02 ~`
 
+-   CSS 선택자를 이전보다 정확하고 풍부하게 쓸 수 있게 되었음
+-   :root를 사용할 수 있게 되었음
+-   flex 사용에 익숙해졌음
+-   position에 대한 이해도가 높아졌음
+-   새로운 파비콘 등록방법을 알게 되었음
+-   og, fb 등 새로운 메타태그를 알게 되었음
+-   collapsing margin(여백 상쇄)에 대해 알게 되었음
+
 ---
 
 ### 2.0 Our First HTML File
