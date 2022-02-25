@@ -779,3 +779,15 @@ Nomad coders 코코아톡 클론 코딩 강의 repository
 ### 6.7 Log In Form part One
 
       로그인 페이지 form style
+
+### 6.8 Log In Form part Two
+
+      :not
+      이것을 제외한 나머지에 적용하겠다는 css 선택자
+
+      부모로부터 css 값을 상속받을 때 inherit를 사용
+      #login-form a {
+            text-align: center;
+            text-decoration: none;
+            color: inherit;
+      }
