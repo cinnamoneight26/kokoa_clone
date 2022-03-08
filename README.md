@@ -11,6 +11,7 @@ Nomad coders 코코아톡 클론 코딩 강의 repository
 -   새로운 파비콘 등록방법을 알게 되었음
 -   og, fb 등 새로운 메타태그를 알게 되었음
 -   collapsing margin(여백 상쇄)에 대해 알게 되었음
+-   BEM(Block Elemen Modifier)에 대해 알게 되었음
 
 ---
 
@@ -799,3 +800,19 @@ Nomad coders 코코아톡 클론 코딩 강의 repository
             text-decoration: none;
             color: inherit;
       }
+
+### 6.9 Recap and Forms
+
+      - form tag의 action은 어떤 페이지로 data를 전송할 것인지 지정할 수 있도록 함
+      - action에 기재한 url에 해당하는 파일은 반드시 존재해야 함
+      - method는 post 방식과 get방식이 있음
+      - post방식은 백엔드 서버에 정보를 전송하는 방식.
+      - get방식은 url에 정보를 추가하여 보내는 방식
+      - get방식은 보안에 취약하므로 정보를 보낼 때는 사용하면 안 됨
+
+### 6.10 Navigation Bar part One
+
+      - navigation은 보통 ul로 나눠지고 그 안에 li로 구성됨
+
+      - vscode 단축키
+      nav>li>li*4>a
