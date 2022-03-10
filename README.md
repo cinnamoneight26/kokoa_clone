@@ -816,3 +816,11 @@ Nomad coders 코코아톡 클론 코딩 강의 repository
 
       - vscode 단축키
       nav>li>li*4>a
+
+### 6.11 Navigation Bar part Two
+
+      - 위치 고정을 위해서 position : fixed를 사용해야 함
+      - 요소에 padding이 있을 경우 width: 100%일 때
+      화면 밖으로 나가는 현상이 있을 수 있음
+      그럴 때 사용하는 것이 box-sizing:border-box;
+
