@@ -824,3 +824,10 @@ Nomad coders 코코아톡 클론 코딩 강의 repository
       화면 밖으로 나가는 현상이 있을 수 있음
       그럴 때 사용하는 것이 box-sizing:border-box;
 
+### 6.12 Border Box
+
+      - 200px의 박스에 50px의 padding을 주면
+      css는 기존 박스의 길이를 유지하기 위해 50px만큼 크기를 늘리기 때문에 내가 원하는 길이가 나오지 않고
+      총 250px의 박스가 됨
+
+      - box-sizing: border-box는 내가 지정한 박스의 크기를 유지한 상태로 padding을 사용할 수 있게 함
