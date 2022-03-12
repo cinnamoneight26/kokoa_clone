@@ -831,3 +831,7 @@ Nomad coders 코코아톡 클론 코딩 강의 repository
       총 250px의 박스가 됨
 
       - box-sizing: border-box는 내가 지정한 박스의 크기를 유지한 상태로 padding을 사용할 수 있게 함
+
+### 6.13 Navigation Bar part Three
+
+      - friends.html bottom 마크업
