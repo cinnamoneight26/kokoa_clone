@@ -9,7 +9,7 @@
 }
 .nav__list {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .nav__link {
     position: relative;
