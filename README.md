@@ -840,3 +840,7 @@ Nomad coders 코코아톡 클론 코딩 강의 repository
 
       - friends.html header 마크업
       - header 부분은 공통으로 사용할 수 있기 때문에 컴퍼넌트화하여 구현
+
+### 6.15 Friends Screen part One
+
+      - friends.html name display 마크업
