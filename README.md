@@ -844,3 +844,7 @@ Nomad coders 코코아톡 클론 코딩 강의 repository
 ### 6.15 Friends Screen part One
 
       - friends.html name display 마크업
+
+### 6.16 User Component part One
+
+      - friends.html image, title 마크업
