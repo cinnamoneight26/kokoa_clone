@@ -852,3 +852,7 @@ Nomad coders 코코아톡 클론 코딩 강의 repository
 ### 6.17 User Component part Two
 
       - friends.html Channel 마크업
+
+### 6.18 Finishing Friends Screen
+
+      - friends.html 마크업 마무리
