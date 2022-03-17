@@ -856,3 +856,7 @@ Nomad coders 코코아톡 클론 코딩 강의 repository
 ### 6.18 Finishing Friends Screen
 
       - friends.html 마크업 마무리
+
+### 6.19 Chats Screen part One
+
+      - chats.html 마크업
