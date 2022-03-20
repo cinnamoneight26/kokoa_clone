@@ -860,3 +860,11 @@ Nomad coders 코코아톡 클론 코딩 강의 repository
 ### 6.19 Chats Screen part One
 
       - chats.html 마크업
+
+### 6.20 Chats Screen part Two
+
+      - chats.html 마크업
+      - 공통으로 쓰이는 css에서 flex를 사용할 때
+      영향을 피하고 싶은 html요소는 <div>로 감싸주면 해결.
+      flex는 부모에 설정하고 자식에게 영향이 가기 때문에
+      <div>로 감싸주면 영향을 피할 수 있음
