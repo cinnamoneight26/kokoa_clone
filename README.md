@@ -868,3 +868,9 @@ Nomad coders 코코아톡 클론 코딩 강의 repository
       영향을 피하고 싶은 html요소는 <div>로 감싸주면 해결.
       flex는 부모에 설정하고 자식에게 영향이 가기 때문에
       <div>로 감싸주면 영향을 피할 수 있음
+
+### 6.21 Find Screen Part One
+
+      - find.html 마크업
+      - 숙제 : find 옆 아이콘에 붉은 색 도트 표시 만들기
+      - 숙제 : chats.html에 margin-bottom 주기
