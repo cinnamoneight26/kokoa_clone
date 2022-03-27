@@ -879,3 +879,7 @@ Nomad coders 코코아톡 클론 코딩 강의 repository
 
       - find.html 마크업
       - 같은 코드가 계속 반복된다면 변수로 만드는 것이 좋음
+
+### 6.23 Find Screen Part Three
+
+      - find.html 마크업
