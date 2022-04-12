@@ -883,3 +883,5 @@ Nomad coders 코코아톡 클론 코딩 강의 repository
 ### 6.23 Find Screen Part Three
 
       - find.html 마크업
+      - 디자인을 위해 대문자를 사용하는 경우 css를 통해 가능
+            ㄴ text-transform: uppercase;
