@@ -885,3 +885,9 @@ Nomad coders 코코아톡 클론 코딩 강의 repository
       - find.html 마크업
       - 디자인을 위해 대문자를 사용하는 경우 css를 통해 가능
             ㄴ text-transform: uppercase;
+
+### 6.24 Find Screen Part Four
+
+      - find.html 마크업
+      - justify-content: space-between; align-items: center;
+        이 두 개는 함께 아주 자주 사용되는 CSS임
