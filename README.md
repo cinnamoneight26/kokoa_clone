@@ -895,3 +895,8 @@ Nomad coders 코코아톡 클론 코딩 강의 repository
 ### #6.25 More Screen part One
 
       - more.html 마크업
+
+### 6.26 More Screen part Two
+
+      - more.html 마크업
+      - settings.html 생성
