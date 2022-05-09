@@ -11,7 +11,7 @@ Nomad coders 코코아톡 클론 코딩 강의 repository
 -   새로운 파비콘 등록방법을 알게 되었음
 -   og, fb 등 새로운 메타태그를 알게 되었음
 -   collapsing margin(여백 상쇄)에 대해 알게 되었음
--   BEM(Block Elemen Modifier)에 대해 알게 되었음
+-   BEM(Block Element Modifier)에 대해 알게 되었음
 
 ---
 
@@ -900,3 +900,5 @@ Nomad coders 코코아톡 클론 코딩 강의 repository
 
       - more.html 마크업
       - settings.html 생성
+
+### 6.27 Settings Screen part One
