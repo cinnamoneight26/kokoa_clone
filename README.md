@@ -902,3 +902,6 @@ Nomad coders 코코아톡 클론 코딩 강의 repository
       - settings.html 생성
 
 ### 6.27 Settings Screen part One
+
+      - setting.html 마크업
+      - header 영역 컴포넌트로 생성
