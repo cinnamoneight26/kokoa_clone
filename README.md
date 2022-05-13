@@ -905,3 +905,7 @@ Nomad coders 코코아톡 클론 코딩 강의 repository
 
       - setting.html 마크업
       - header 영역 컴포넌트로 생성
+
+### 6.28 Settings and Chat Screen part One
+
+      - chat.html 마크업
