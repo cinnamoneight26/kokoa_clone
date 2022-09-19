@@ -905,6 +905,7 @@ Nomad coders 코코아톡 클론 코딩 강의 repository
 
       - setting.html 마크업
       - header 영역 컴포넌트로 생성
+      - herder css에서 column first-child에 margin-right를 auto, last-child에 margin-left를 auto로 주니 정렬이 예쁘게 됨
 
 ### 6.28 Settings and Chat Screen part One
 
