@@ -12,6 +12,7 @@ Nomad coders 코코아톡 클론 코딩 강의 repository
 -   og, fb 등 새로운 메타태그를 알게 되었음
 -   collapsing margin(여백 상쇄)에 대해 알게 되었음
 -   BEM(Block Element Modifier)에 대해 알게 되었음
+-   CSS의 flex children에서 order의 사용 방법에 대해 알게 되었음
 
 ---
 
@@ -929,3 +930,8 @@ Nomad coders 코코아톡 클론 코딩 강의 repository
 ### 6.31 Chat Screen part Four
 
       - chat 수신 메세지 부분 마크업 진행
+
+### 6.32 Chat Screen part Five
+
+      - CSS의 order속성은 flex children에게만 적용된다.
+
