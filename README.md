@@ -910,3 +910,12 @@ Nomad coders 코코아톡 클론 코딩 강의 repository
 ### 6.28 Settings and Chat Screen part One
 
       - chat.html 마크업
+
+### 6.29 Chat Screen part Two
+
+      - chat.html 마크업
+      - .alt-header__column 부분 CSS - absolute를 이용해서
+      정중앙에 오도록 하는 것은 부자연스러움.
+      3개의 컬럼이므로 33%를 주고 정렬을 맞춰 가운데 오도록 수정
+      - z-index : 숫자가 작을수록 낮은 layer, 클수록 위의 layer
+            fixed absolute position에 이용가능

@@ -1,3 +1,24 @@
 #chat-screen {
     background-color: #abc1d1;
+    /* 스크롤을 할 수 있도록 세로 길이를 늘려준다 */
+    height: 110000vh;
+}
+
+#chat-screen .alt-header,
+#chat-screen .status-bar {
+    top: 0;
+    position: fixed;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #abc1d1;
+}
+#chat-screen .alt-header {
+    top: 10px;
+    z-index: 1;
+}
+.main-chat {
+    margin-top: 150px;
+}
+#chat-screen .status-bar {
+    z-index: 2;
 }
