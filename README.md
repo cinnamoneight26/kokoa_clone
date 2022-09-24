@@ -925,3 +925,7 @@ Nomad coders 코코아톡 클론 코딩 강의 repository
 
       - chat.html에서 타임스탬프 마크업
       - chat 수신 메세지 부분 마크업 진행 중
+
+### 6.31 Chat Screen part Four
+
+      - chat 수신 메세지 부분 마크업 진행
