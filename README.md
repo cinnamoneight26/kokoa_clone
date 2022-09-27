@@ -938,3 +938,10 @@ Nomad coders 코코아톡 클론 코딩 강의 repository
 ### 6.33 Write Message Input
 
       - 채팅 입력창 부분 markup
+
+### 6.34 Splash Screen part One
+
+      - 페이지 새로고침 시 보여질 splash화면을 생성
+      - 100vh는 화면 높이의 100%를 의미하고 100vw는 화면 넓이의 100%를 의미한다.
+
+
