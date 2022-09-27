@@ -935,3 +935,6 @@ Nomad coders 코코아톡 클론 코딩 강의 repository
 
       - CSS의 order속성은 flex children에게만 적용된다.
 
+### 6.33 Write Message Input
+
+      - 채팅 입력창 부분 markup
