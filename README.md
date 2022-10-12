@@ -951,3 +951,8 @@ Nomad coders 코코아톡 클론 코딩 강의 repository
       - 예를들어 애니메이션에 지정한 마지막 속성이 opacity: 0이라면 애니메이션이 끝나고도 유지가 된다.
       - 하지만 이렇게 애니메이션을 통해 안 보이게 해도 element는 그대로 유지가 된 상태이기 때문에 요소 클릭이 진행되지 않는다.
       - 애니메이션의 마지막 속성에         visibility: hidden를 추가하여 요소를 숨김처리하면 문제 해결. visibility: hidden;은 요소가 마우스에 걸리지 않게 빠져버리는 상태.html의 요소는 아직 존재하는 상태. 무언가 숨긴다거나 할 때는 이 테크닉 사용은 권장하지 않음. 대체로 이런 경우 JavsScript를 이용하여 해결
+
+### 6.36 Navigation Animation
+
+      - CSS animation 진헹. from, to 외에 0%, 50%, 100% 등으로 구분하여 사용할 수 있음.
+      - animation에 infinite를 사용하면 반복하여 움직임
